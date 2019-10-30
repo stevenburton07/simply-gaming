@@ -129,7 +129,7 @@ footer {
     border: 1px solid #1486CC;
     border-radius: 1rem;
     padding: 1rem 2%;
-    margin: 1rem;
+    margin: 1.5rem;
 }
 
 .practiceForm legend {
@@ -140,6 +140,7 @@ footer {
 
 .practiceForm label {
     display: block;
+    padding: .2rem;
 }
 
 .practiceForm span {
@@ -163,5 +164,5 @@ footer {
     padding: 1rem 3rem;
     border-radius: 1rem;
     border: 1px solid black;
-    margin: 1rem;
+    margin: 1.5rem;
 }
