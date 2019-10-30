@@ -124,3 +124,28 @@ footer {
 .registration {
     background-color: #D3D3D3;
 }
+
+.practiceForm fieldset {
+    border: 1px solid #1486CC;
+    border-radius: 1rem;
+    padding: 1rem 2%;
+}
+
+.practiceForm legend {
+    font-family: 'Press Start 2P', cursive;
+    font-size: .8rem;
+    color: #FF0001;
+}
+
+.practiceForm label {
+    display: block;
+}
+
+.practiceForm span {
+    display: block;
+    padding-top: 1rem;
+}
+
+.myButton {
+
+}

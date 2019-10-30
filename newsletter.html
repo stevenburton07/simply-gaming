@@ -33,22 +33,20 @@
     <!-- Newsletter Registration -->
     <div class="registration">
         <h1>Newsletter Sign Up!</h1>
-        <form action="" method="POST" enctype="multipart/form-data" name="">
+        <form action="" method="POST" enctype="multipart/form-data" name="" class="practiceForm">
 
             <!-- Name -->
             <fieldset>
-                <legend>Your Name</legend>
-                <label>First Name: <input name="first" value="" type="text" placeholder="John" required></label><br>
-                <label>Last Name: <input name="last" value="" type="text" placeholder="Smith" required></label><br>
-            </fieldset>
-
-            <!-- Contact Info -->
-            <fieldset>
-                <legend>Contact Information</legend>
-                <label>Email: <input type="email" name="email" value="" placeholder="example@email.com" required></label><br>
-                <label>Phone: <input type="tel" name="telephone" value="" placeholder="567-891-2345" required></label><br>
-
-                <label>Region:</label>
+                <legend>Personal Information</legend>
+                <label><span>First Name:</span><input name="first" value="" type="text" placeholder="John" required></label>
+                
+                <label><span>Last Name:</span><input name="last" value="" type="text" placeholder="Smith" required></label>
+                
+                <label><span>Email:</span><input type="email" name="email" value="" placeholder="example@email.com" required></label>
+                
+                <label><span>Phone:</span><input type="tel" name="telephone" value="" placeholder="567-891-2345" required></label>
+                
+                <label><span>Region:</span></label>
                 <select name="region">
                     <option value="US">United States</option>
                     <option value ="UK">United Kingdom</option>
@@ -59,19 +57,19 @@
             <!-- Platforms Owned -->
             <fieldset>
                 <legend>Which platforms do you own?</legend>
-                <label><input type="checkbox" name="nintendo" value="nintendo">Nintendo</label><br>
-                <label><input type="checkbox" name="xbox" value="xbox">Xbox</label><br>
-                <label><input type="checkbox" name="playStation" value="playStation">PlayStation</label><br>
-                <label><input type="checkbox" name="pc" value="pc">PC</label><br>
+                <label><input type="checkbox" name="nintendo" value="nintendo">Nintendo</label>
+                <label><input type="checkbox" name="xbox" value="xbox">Xbox</label>
+                <label><input type="checkbox" name="playStation" value="playStation">PlayStation</label>
+                <label><input type="checkbox" name="pc" value="pc">PC</label>
             </fieldset>
 
             <!-- Preferred Platform -->
             <fieldset>
                 <legend>Preferred Platform</legend>
-                <label><input type="radio" name="console" value="nintendo">Nintendo</label><br>
-                <label><input type="radio" name="console" value="xbox">Xbox</label><br>
-                <label><input type="radio" name="console" value="playStation">PlayStation</label><br>
-                <label><input type="radio" name="console" value="pc">PC</label><br>
+                <label><input type="radio" name="console" value="nintendo">Nintendo</label>
+                <label><input type="radio" name="console" value="xbox">Xbox</label>
+                <label><input type="radio" name="console" value="playStation">PlayStation</label>
+                <label><input type="radio" name="console" value="pc">PC</label>
             </fieldset>
 
             <fieldset>
@@ -86,7 +84,7 @@
                 <textarea name="comments"></textarea>
             </fieldset>
 
-            <input type="submit" name="submit" value="Sign Up for Newsletter">
+            <input type="submit" name="submit" value="Sign Up for Newsletter" class="myButton">
             <input type="hidden" name="simplyGaming" value="bluehost">
         </form>
     </div>
