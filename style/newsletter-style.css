@@ -129,6 +129,7 @@ footer {
     border: 1px solid #1486CC;
     border-radius: 1rem;
     padding: 1rem 2%;
+    margin: 1rem;
 }
 
 .practiceForm legend {
@@ -143,9 +144,24 @@ footer {
 
 .practiceForm span {
     display: block;
+    font-size: .8rem;
+    color: #1486CC;
     padding-top: 1rem;
 }
 
-.myButton {
+.yourInput {
+    color: #FF0001;
+    background-color: beige;
+    border: none;
+    padding: .5rem;
+    border-radius: 1rem;
+    width: 25%;
+}
 
+ .myButton {
+    background-color: #1486CC;
+    padding: 1rem 3rem;
+    border-radius: 1rem;
+    border: 1px solid black;
+    margin: 1rem;
 }
