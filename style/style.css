@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    align-items: center;
+    height: 64px;
+    width: 100%;
+    background-color: #505050;
+    position: fixed;
+}
+
+#navlist {
+    display: flex;
+    list-style: none;
+}
+
+#navlist a {
+    font-size: 1.75rem;
+    padding: 1rem;
+    text-decoration: none;
+    color: #f0f0f0;
+}
+
+#navlist a:hover {
+    background:  #FF0001;
+}
+
+a:hover {
+    background:  #FF0001;
+}
+
+/* Simply Gaming Header */
+.welcome {
+    background-color: #505050;
+    padding: 70px;
+}
+
+#simply {
+    font-family: "arial", sans, serif;
+    font-size: 50px;
+    color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    padding: 0 30px;
+    background-color: #505050;
+}
+
+#gaming {
+    font-family: 'Press Start 2P', cursive;
+    vertical-align: bottom;
+    line-height: 65px;
+    color: #FF0001;
+}
+
+/* Simply Gaming Slogan */
+#slogan {
+    font-family: 'Nanum Gothic', sans-serif;
+    color: #f0f0f0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #505050;
+}
+
+/* HTML elements */
+h1 {
+    font-family: "arial", sans, serif;
+    color: #f0f0f0;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: "arial", sans, serif;
+    color: #f0f0f0;
+    font-size: 30px;
+}
+
+h3 {
+    font-family: 'Press Start 2P', cursive;
+    color: #f0f0f0;
+    line-height: 20px;
+}
+
+ol, dl, ul, dd {
+    font-family: 'Roboto', sans-serif;
+    margin: 10px;
+}
+
+dt {
+    font-family: 'Press Start 2P', cursive;
+    line-height: 12px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+}
+
+figcaption {
+    font-family: 'Roboto', sans-serif;
+}
+
+footer {
+    font-family: "arial", sans, serif;
+    color: #f0f0f0;
+    background-color: #505050;
+}
+
+/* Images */
+.logo {
+    margin: 0 0 0 1%;
+}
+
+/* News Section */
+#news {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #1486CC;
+}
+
+#newsbody {
+    background-color: #1486CC;
+    text-align: center;
+    justify-content: center;
+    height: 10vh;
+}
+
+/* Walk-throughs */
+.walkthroughs {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #B31213;
+}
+
+#walkthroughsbody {
+    text-align: center;
+    justify-content: center;
+    background-color: #B31213;
+}
+
+#nintendolist {
+    list-style-type: square;
+}
+
+#xboxlist {
+    list-style-type: circle;
+}
+
+#playstationlist {
+    list-style-type: upper-roman;
+}
+
+/* Walk=through sections */
+.platforms-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #B31213;
+}
+
+#nintendo, #xbox, #playstation, #pc {
+    padding: 16px;
+}
+
+/* Bottom row */
+.bottom-row {
+    display: flex;
+    flex-direction: row;
+    background-color: #D3D3D3;
+}
+
+#top10 {
+    padding: 20px;
+}
+
+#topnintendo {
+    margin: 10px;
+}
+
+#top10-title {
+    color: black;
+}
+
+#terminology {
+    padding: 20px;
+}
+
+#terminology-title {
+    color: black;
+}
+
+#definitions {
+    padding: 20px;
+}
