@@ -201,3 +201,88 @@ footer {
 #definitions {
     padding: 20px;
 }
+
+/* ABOUT PAGE */
+.about {
+    background-color: #D3D3D3;
+    border-color: rgb(225,0,0);
+    border-style: dashed;
+    border-width: 5px;
+}
+
+#asg {
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+#puzzles {
+    display: flex;
+    padding: 20px;
+}
+
+#email {
+    display: flex;
+}
+
+/* GALLERY */
+.gallery {
+    background-color: #D3D3D3;
+}
+
+#galleryintro {
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.keepOpen {
+    clear: both;
+}
+
+/* Newsletter Signup */
+.registration {
+    background-color: #D3D3D3;
+}
+
+.practiceForm fieldset {
+    border: 1px solid #1486CC;
+    border-radius: 1rem;
+    padding: 1rem 2%;
+    margin: 1.5rem;
+}
+
+.practiceForm legend {
+    font-family: 'Press Start 2P', cursive;
+    font-size: .8rem;
+    color: #FF0001;
+}
+
+.practiceForm label {
+    display: block;
+    padding: .2rem;
+}
+
+.practiceForm span {
+    display: block;
+    font-size: .8rem;
+    color: #1486CC;
+    padding-top: 1rem;
+}
+
+.yourInput {
+    color: #FF0001;
+    background-color: beige;
+    border: none;
+    padding: .5rem;
+    border-radius: 1rem;
+    width: 25%;
+}
+
+ .myButton {
+    background-color: #1486CC;
+    padding: 1rem 3rem;
+    border-radius: 1rem;
+    border: 1px solid black;
+    margin: 1.5rem;
+}
