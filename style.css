@@ -11,7 +11,7 @@ nav {
     display: flex;
     align-items: center;
     height: 64px;
-    width: 100%;
+    width: 62.5%;
     background-color: #505050;
     position: fixed;
 }
@@ -38,8 +38,11 @@ a:hover {
 
 /* Simply Gaming Header */
 .welcome {
+    background-image: url(images/controller.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
     background-color: #505050;
-    padding: 70px;
+    padding: 100px;
 }
 
 #simply {
@@ -49,7 +52,6 @@ a:hover {
     display: flex;
     justify-content: center;
     padding: 0 30px;
-    background-color: #505050;
 }
 
 #gaming {
@@ -66,10 +68,22 @@ a:hover {
     margin: 0;
     display: flex;
     justify-content: center;
-    background-color: #505050;
 }
 
 /* HTML elements */
+
+body {
+    background-color: #c6c9d0;
+    background-image: url(images/background.png);
+    background-repeat: repeat-x;
+}
+
+#wrapper {
+    max-width: 900px;
+    min-width: 320px;
+    margin: 0 auto;
+}
+
 h1 {
     font-family: "arial", sans, serif;
     color: #f0f0f0;
@@ -166,16 +180,20 @@ footer {
     background-color: #B31213;
 }
 
-#nintendolist {
-    list-style-type: square;
+#nintendolist li {
+    list-style-type: none;
+    background-image: url(images/controller1.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 25px;
 }
 
 #xboxlist {
-    list-style-type: circle;
+    list-style-image: url(images/controller1.png);
 }
 
 #playstationlist {
-    list-style-type: upper-roman;
+    list-style-image: url(images/controller1.png);
 }
 
 /* Walk=through sections */
@@ -223,7 +241,7 @@ footer {
 
 /* ABOUT PAGE */
 .about {
-    background-color: #D3D3D3;
+    background: linear-gradient(to right, #787a7e 25%, #c6c9d0 50%);
     border-color: rgb(225,0,0);
     border-style: dashed;
     border-width: 5px;
