@@ -375,3 +375,50 @@ footer {
     border: 1px solid black;
     margin: 1.5rem;
 }
+
+/* Map */
+#intro {
+    display: flex;
+    justify-content: center;
+    color: #FF0001;
+}
+
+.blackfriday {
+    border: 1px solid #1486CC;
+    box-shadow: 1px 3px 10px #1486CC;
+    background-color: lightblue;
+    border-collapse: collapse;
+    width: 90%;
+    margin-left: 5%;
+}
+
+th {
+    background-color: #1486CC;
+    padding: .5rem;
+}
+
+td {
+    padding: .5rem;
+    border-bottom: 1
+}
+
+tr:nth-child(even) {
+    background-color:lightcyan;
+}
+
+tr:hover {
+    background-color: #FF0001;
+    color: white;
+}
+
+.testiframe {
+    width: 90%;
+    height: 20rem;
+    margin-left: 5%;
+    border: 1px solid #1486CC;
+}
+
+.testaudio {
+    width: 90%;
+    margin-left: 5%;
+}
