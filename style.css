@@ -377,7 +377,7 @@ footer {
 }
 
 /* Map */
-#intro {
+.intro {
     display: flex;
     justify-content: center;
     color: #FF0001;
@@ -399,7 +399,7 @@ th {
 
 td {
     padding: .5rem;
-    border-bottom: 1
+    border-bottom: 1px solid black;
 }
 
 tr:nth-child(even) {
